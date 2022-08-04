@@ -1,0 +1,11 @@
+name = "mailer-worker"
+main = "src/index.ts"
+compatibility_date = "2022-08-04"
+
+[[kv_namespaces]]
+  binding = "BANNED_IPs"
+  id = "c70cd2c47f454c59b63318210ad05ff6"
+
+[[kv_namespaces]]
+  binding = "ALLOWED"
+  id = "f6eb7abf2b6f4d9db57d9136645bbcc1"
